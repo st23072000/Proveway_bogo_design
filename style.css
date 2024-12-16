@@ -1,0 +1,476 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.total {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 124px;
+    height: 17px;
+    color: #000000;
+}
+
+.header-container {
+    width: 343px;
+    margin-top: 20px;
+    margin-left: 59px;
+    border: 0.9px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bogo-container {
+    width: 462px;
+    height: 603px;
+    top: -794px;
+    left: 430px;
+    gap: 0px;
+    opacity: 1px;
+    border: 1px solid #ccc;
+    background: #FFFFFF;
+}
+
+.midBox {
+    width: 341px;
+    height: 363.11px;
+    margin-top: 18px;
+    margin-left: 60px;
+    margin-right: 60px;
+    gap: 0px;
+    opacity: 1px;
+}
+
+.bogo-header {
+    text-align: center;
+    color: #FF6B82;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.option {
+    width: 341px;
+    height: 74.11px;
+    border: 0.9px solid #C8C8C8;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.most-popular {
+    width: 119px;
+    height: 26px;
+    top: -11px;
+    left: 5px;
+    gap: 0px;
+    border-radius: 0px 0px 4px 4px;
+    opacity: 0px;
+    background-color: #FF6B82;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.52px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+    position: relative;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.popular-div {
+    width: 129px;
+    height: 7px;
+    top: -15px;
+    left: 233px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+}
+
+.option.selected {
+    border: 2px solid #FF6B82;
+    background-color: #FFF9FA;
+    height: 140px;
+    position: relative;
+}
+
+.First-content {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.option .extra-content {
+    display: none;
+
+}
+
+.option.selected .extra-content {
+    display: block;
+    margin-top: 10px;
+    color: #333;
+    font-size: 14px;
+    padding-left: 40px;
+}
+
+.option-third {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-right: 15px;
+}
+
+.option-second {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    padding-left: 15px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unit {
+    width: 38px;
+    height: 17px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-right: 5px;
+}
+
+.Sline {
+    width: 91.64px;
+    height: 0px;
+    border: 0.9px solid #C8C8C8
+}
+
+.measurment {
+    margin-bottom: 5px;
+}
+
+.discount {
+    width: 55px;
+    height: 17px;
+    gap: 0px;
+    border-radius: 1px 0px 0px 0px;
+    background: #FF6B82;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.standard-Price {
+    width: 84px;
+    height: 15px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+}
+
+.price {
+    width: 90px;
+    height: 18px;
+    font-size: 14.46px;
+    font-weight: 500;
+    line-height: 17.5px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.strike {
+    width: 58px;
+    height: 12px;
+    opacity: 0.3px;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 12.1px;
+    text-align: left;
+    text-decoration-line: line-through;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #C8C8C8;
+}
+
+.selections {
+    margin-top: 15px;
+}
+
+.selection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.selection select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    width: 368px;
+
+}
+
+.free-delivery {
+    color: #FF6B82;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    width: 365px;
+    height: 40px;
+    background: #FF6B82;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.option-label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    margin-bottom: 13px;
+}
+
+.Middle-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: start;
+}
+
+.One {
+    width: 10px;
+    height: 11px;
+    font-family: Inter;
+    font-size: 9.04px;
+    font-weight: 400;
+    line-height: 10.94px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
+
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+    width: 65.98px;
+    height: 25.31px;
+}
+
+.dropdown-container2 {
+    position: relative;
+    display: inline-block;
+    width: 72.3px;
+    height: 25.31px;
+}
+
+.Sizes {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    font-family: Inter;
+    font-size: 10.85px;
+    font-weight: 400;
+    line-height: 13.13px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.Colour {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    font-family: Inter;
+    font-size: 10.85px;
+    font-weight: 400;
+    line-height: 13.13px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+select {
+    width: 100%;
+    height: 100%;
+    appearance: none;
+    /* Hides the default dropdown arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding: 2px 30px 2px 5px;
+    /* Space for the arrow */
+    border: 0.9px solid #D9D9D9;
+    font-size: 14px;
+    background: white;
+    cursor: pointer;
+    font-family: Inter;
+    font-size: 10.85px;
+    font-weight: 400;
+    line-height: 13.13px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.dropdown-container::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    /* Position near the edge */
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    /* Black filled triangle */
+    pointer-events: none;
+    /* Prevents clicking the arrow itself */
+}
+
+.dropdown-container2::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    /* Position near the edge */
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;
+    /* Black filled triangle */
+    pointer-events: none;
+    /* Prevents clicking the arrow itself */
+}
+
+.powered-by {
+    width: 362px;
+    text-align: end;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 14.52px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #00000066;
+}
+
+/* Hide the default radio button */
+input[type="radio"] {
+    appearance: none; /* Remove default styling */
+    -webkit-appearance: none;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc; /* Border color */
+    border-radius: 50%; /* Circular shape */
+    background-color: #fff; /* Default background */
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Create the inner circle when checked */
+input[type="radio"]::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: transparent; /* Default: no inner circle */
+    border-radius: 50%; /* Circular inner shape */
+    transition: background-color 0.3s ease;
+}
+
+/* Change border and inner color when checked */
+input[type="radio"]:checked {
+    border-color: #FF6B82; /* Border color when checked */
+}
+
+input[type="radio"]:checked::after {
+    background-color: #FF6B82; /* Inner circle color when checked */
+}
